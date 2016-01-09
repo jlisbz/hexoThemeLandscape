@@ -1,6 +1,7 @@
 # Header
 menu:
   Home: /
+  Solutions: /demo
   Archives: /archives
 rss: /atom.xml
 
@@ -9,16 +10,16 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
-sidebar: right
-widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
+sidebar: false
+# widgets:
+# - category
+# - tag
+# - tagcloud
+# - archive
+# - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
+# index_widgets:
 # - category
 # - tagcloud
 # - archive
